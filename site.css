@@ -10,6 +10,7 @@ h1, h2{
 
 .subtitulo{
     font-size: 30px;
+    clear: both;
 }
 
 .titulo-principal{
@@ -44,6 +45,7 @@ p{
 .rodape{
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 nav a{
@@ -125,4 +127,31 @@ em{
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+    display: block;
+}
+
+.foto-joao, .navegacao{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+main{
+    float: left;
+    width: 85%;
 }
