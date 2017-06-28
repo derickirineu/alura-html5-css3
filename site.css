@@ -19,6 +19,7 @@ h1, h2{
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 p{
@@ -56,6 +57,7 @@ main a {
 .navegacao a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-transform: lowercase;
 }
 
 .citacao-bio, .navegacao, .rodape {
@@ -82,6 +84,25 @@ em{
 }
 .icones-rede-sociais li{
     display: inline-block;
+}
+
+.icones-rede-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
 }
 
 .artigo {
